@@ -15,7 +15,14 @@ Esquema funcional para un TP4056 con proteccion. La posicion ilustrada de los te
 - `examples/legacy_esp32_hat/`: montaje anterior con ESP32 separado y HAT; sus GPIO son distintos.
 - `google_apps_script/`: servicio de Google y pruebas con servicios simulados.
 - `docs/`: hardware y alimentacion.
+- `hardware/soporte-3d/`: modelos STL y vistas del soporte impreso.
 - `tools/`: conversion opcional de imagen propia a bitmap.
+
+## Soporte impreso en 3D
+
+![Dashboard montado en su soporte impreso](hardware/soporte-3d/imagenes/resultado-impreso.png)
+
+Los tres STL y la vista digital estan disponibles en [modelos y documentacion del soporte](hardware/soporte-3d/README.md).
 
 ## Preparacion
 
