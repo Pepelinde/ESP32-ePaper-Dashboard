@@ -2,6 +2,10 @@
 
 Dashboard personal de 800 x 480 para Waveshare e-Paper de 7,5 pulgadas y **e-Paper ESP32 Driver Board Rev. 3 con ESP32 integrado**. Muestra meteorologia, calidad del aire, calendario, tareas, nota manual y contador de mensajes sin leer de Gmail.
 
+![Esquema ilustrado de conexionado: bateria, TP4056, MT3608, placa Waveshare ESP32 y pantalla e-paper](docs/alimentacion-ilustrada.png)
+
+Esquema funcional para un TP4056 con proteccion. La posicion ilustrada de los terminales es orientativa; consulta [las conexiones y comprobaciones de alimentacion](docs/alimentacion.md) antes de montar el circuito.
+
 ## Estructura
 
 - `src/`: firmware y recursos del dashboard.
